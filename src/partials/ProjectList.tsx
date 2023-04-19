@@ -18,7 +18,7 @@ const ProjectList = () => (
       <Project
         name="Classifying Speech Data using CNNs"
         description="This project uses machine learning to distinguish between human and synthetic speech extracted from several datasets of voice audio files. "
-        link="/"
+        link="https://github.com/smileshey/VoiceClass--NN"
         img={{
           src: '/assets/images/mic-dynamic-color.png',
           alt: 'Project Web Design',
