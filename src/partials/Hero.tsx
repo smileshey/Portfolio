@@ -23,7 +23,8 @@ const Hero = () => (
           <a className="text-cyan-400 hover:underline" href="/">
             Data Scientist
           </a>{' '}
-          , and an aspiring good person.<br />
+          , and an aspiring good person.
+          
           This is a great place to see what I've been up to and to get in touch with me
         </>
 }
