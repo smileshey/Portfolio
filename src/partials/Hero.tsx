@@ -66,6 +66,12 @@ const Hero = () => (
               alt="Running icon"
             />
           </a>
+          <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=hireryanvirgin@gmail.com">
+            <HeroSocial
+              src="/assets/images/gmail.png"
+              alt="Mail Me icon"
+            />
+          </a>
         </>
       }
     />
