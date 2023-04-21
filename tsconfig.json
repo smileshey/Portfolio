@@ -13,8 +13,6 @@
     "strict": true,
     "alwaysStrict": true,
     "strictNullChecks": true,
-    "noUncheckedIndexedAccess": true,
-
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -31,7 +29,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
-    "jsx": "react-jsx",
+    "jsx": "react" ,
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
     // Add type definitions for our Vite runtime.

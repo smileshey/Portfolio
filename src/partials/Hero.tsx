@@ -4,6 +4,7 @@ import {
   HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
+import React from 'react';
 
 const Hero = () => (
   <Section>
@@ -16,18 +17,18 @@ const Hero = () => (
       description={
         <>
           I'm an{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a className="text-cyan-400 hover:underline" href="/engineer">
             Engineer
           </a>{' '}
           , a{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
+          <a className="text-cyan-400 hover:underline" href="/data-scientist">
             Data Scientist
           </a>{' '}
-          , and an aspiring good person.
+          , and an aspiring good person. 
           
-          This is a great place to see what I've been up to and to get in touch with me
+          This is a great place to see what I've been up to and to get in touch with me.
         </>
-}
+      }
       avatar={
         <img
           className="w-70 h-80"
@@ -51,6 +52,18 @@ const Hero = () => (
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
+            />
+          </a>
+          <a href="https://docs.google.com/spreadsheets/d/1ut0FfFLS_xxE-d72RXnXxO4WCS_USF856n5LBH8zUGc/edit?usp=sharing">
+            <HeroSocial
+              src="/assets/images/notebook-dynamic-gradient.png"
+              alt="Reading List icon"
+            />
+          </a>
+          <a href="https://www.statshunters.com/share/215e24bf807e">
+            <HeroSocial
+              src="/assets/images/strava.png"
+              alt="Running icon"
             />
           </a>
         </>
