@@ -45,10 +45,13 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Predicting CA Wildfire Causes with ML"
-        description=" A predictive model that accurately identifies the cause of California wildfires using various features. By analyzing and modeling the data using analytical techniques, the project can help identify effective prevention strategies, allocate resources efficiently, and improve the response time of fire organizations."
-        link="https://github.com/smileshey/CA-Wildfires-NN"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Maps' }}
+        name="A Predictive Approach to Passenger Rail Construction Cost Estimates"
+        description=" 
+        Passenger rail is a cornerstone of urban mobility. The construction of new rail projects poses challenges as the upfront investment can be infeasbile for many jurisdictions. To help combat this, I've created a publicly available construction cost estimation tool that is accessible to anyone via the app provided here. This tool uses a model that was trained on available construction data and outputs a prediction for the cost to build that project.
+
+        "
+        link="https://buildmoretrains.streamlit.app/"
+        img={{ src: '/assets/images/train.png', alt: 'Project Maps' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Machine Learning</Tags>
