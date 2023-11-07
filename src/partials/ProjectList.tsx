@@ -55,7 +55,6 @@ const ProjectList = () => (
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Machine Learning</Tags>
-            <Tags color={ColorTags.INDIGO}>REST api</Tags>
             <Tags color={ColorTags.SKY}>Python</Tags>
           </>
         }
