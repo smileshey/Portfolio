@@ -16,6 +16,19 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+          name="Generating Passenger Rail Cost Estimates using ML"
+          description=" 
+          Passenger rail is a cornerstone of urban mobility. Given the high initial costs and financial risks associated with rail infrastructure projects, it's essential to provide stakeholders with clear cost estimates. This app introduces a construction cost estimation mode that was trained on existing construction cost data to forecast the overall cost to build new rail lines.        "
+          link="https://buildmoretrains.streamlit.app/"
+          img={{ src: '/assets/images/train.png', alt: 'SmashIcons: train logo' }}
+          category={
+            <>
+              <Tags color={ColorTags.VIOLET}>Machine Learning</Tags>
+              <Tags color={ColorTags.SKY}>Python</Tags>
+            </>
+          }
+        />
+      <Project
         name="Classifying Speech Data using CNNs"
         description="This project uses machine learning to distinguish between human and synthetic speech extracted from several datasets of voice audio files. "
         link="https://github.com/smileshey/VoiceClass--NN"
@@ -40,20 +53,6 @@ const ProjectList = () => (
           <>
             <Tags color={ColorTags.VIOLET}>Machine Learning</Tags>
             <Tags color={ColorTags.EMERALD}>Sentiment Analysis</Tags>
-            <Tags color={ColorTags.SKY}>Python</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Generating Passenger Rail Cost Estimates using ML"
-        description=" 
-        Passenger rail is a cornerstone of urban mobility. Given the high initial costs and financial risks associated with rail infrastructure projects, it's essential to provide stakeholders with clear cost estimates. This app introduces a construction cost estimation mode that was trained on existing construction cost data to forecast the overall cost to build new rail lines. Designed for broad accessibility, the tool aims to inform decision-making and facilitate the advancement of urban rail systems without necessitating direct input from government officials.
-        "
-        link="https://buildmoretrains.streamlit.app/"
-        img={{ src: '/assets/images/train.png', alt: 'SmashIcons: train logo' }}
-        category={
-          <>
-            <Tags color={ColorTags.VIOLET}>Machine Learning</Tags>
             <Tags color={ColorTags.SKY}>Python</Tags>
           </>
         }
