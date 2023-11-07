@@ -33,7 +33,7 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="https://bronze-maire-76.tiiny.site/">
+        <NavMenuItem href="https://docs.google.com/document/d/e/2PACX-1vTVTvRS4swVtaLD2zHij1ndazF0eaajEzN325xNc3GKzj0diqnQaPnybMxp95AV9ZcDPxUv0_qIK9Sz/pub">
           Resume
         </NavMenuItem>
       </NavMenu>
