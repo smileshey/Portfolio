@@ -16,9 +16,9 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-          name="Generating Construction Cost Estimates for Passenger Rail Projects with ML"
+          name="A Predictive Approach to Construction Cost Estimates for Passenger Rail"
           description=" 
-          Passenger rail is a cornerstone of urban mobility. Given the high initial costs and financial risks associated with rail infrastructure projects, it's essential to provide stakeholders with clear cost estimates. This app introduces a construction cost estimation mode that was trained on existing construction cost data to forecast the overall cost to build new rail lines.        "
+          Passenger rail is a cornerstone of urban mobility. Given the high initial costs and financial risks associated with rail infrastructure projects, it's essential to provide stakeholders with clear cost estimates. This app introduces a construction cost estimation model that was trained on existing construction cost data to forecast the overall cost to build new rail lines.        "
           link="https://buildmoretrains.streamlit.app/"
           img={{ src: '/assets/images/train.png', alt: 'SmashIcons: train logo' }}
           category={
