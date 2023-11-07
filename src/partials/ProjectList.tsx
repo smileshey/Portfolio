@@ -18,7 +18,7 @@ const ProjectList = () => (
       <Project
           name="A Predictive Approach to Construction Cost Estimates"
           description=" 
-          Passenger rail is a cornerstone of urban mobility. Given the high initial costs and financial risks associated with rail infrastructure projects, it's essential to provide stakeholders with clear cost estimates. This app introduces a construction cost estimation model that was trained on existing construction cost data to forecast the overall cost to build new rail lines.        "
+          Passenger rail is a cornerstone of urban mobility. Given the high initial costs and financial risks associated with rail infrastructure projects, it's essential to provide stakeholders with clear cost estimates. This app introduces a construction cost estimation model that was trained on the data from existing rail projects to forecast the overall cost to build new passenger rail lines.        "
           link="https://buildmoretrains.streamlit.app/"
           img={{ src: '/assets/images/train.png', alt: 'SmashIcons: train logo' }}
           category={
