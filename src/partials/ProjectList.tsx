@@ -22,8 +22,8 @@ const ProjectList = () => (
         img={{ src: '/assets/images/park.png', alt: 'SmashIcons: park logo' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>GeoSpatial</Tags>
-            <Tags color={ColorTags.SKY}>JS</Tags>
+            <Tags color={ColorTags.GREEN}>GeoSpatial</Tags>
+            <Tags color={ColorTags.RED}>JS</Tags>
             <Tags color={ColorTags.SKY}>Python</Tags>
           </>
         }
